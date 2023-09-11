@@ -1,9 +1,10 @@
 import yaml
 from pathlib import Path
 from typing import Tuple
-from rich import print
-from typer import Typer
 import uuid
+
+from typer import Typer
+from rich import print
 
 app = Typer()
 
